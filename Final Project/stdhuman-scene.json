@@ -1,0 +1,2141 @@
+{
+    "WorldAttr": {
+        "FixedAttr": {
+            "SimulateFPS": 120,
+            "UseHinge": true,
+            "UseAngleLimit": false,
+            "SelfCollision": true,
+            "dWorldUpdateMode": 1
+        },
+        "ChangeAttr": {
+            "Gravity": [
+                0.0,
+                -9.80,
+                0.0
+            ],
+            "StepCount": 0,
+            "RenderFPS": 60
+        }
+    },
+    "Environment": {
+        "Geoms": [
+            {
+                "GeomID": 20932,
+                "Name": "Plane",
+                "GeomType": "Cube",
+                "Collidable": true,
+                "Friction": 0.8,
+                "Restitution": 1.0,
+                "ClungEnv": false,
+                "Position": [
+                    0.0,
+                    -0.5,
+                    0.0
+                ],
+                "Quaternion": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "Scale": [
+                    200.0,
+                    1.0,
+                    200.0
+                ]
+            }
+        ],
+        "FloorGeomID": 0.0
+    },
+    "CharacterList": {
+        "Characters": [
+            {
+                "CharacterID": 1,
+                "CharacterName": "DCharacter0",
+                "SelfCollision": true,
+                "IgnoreParentCollision": true,
+                "IgnoreGrandpaCollision": true,
+                "Kinematic": false,
+                "CharacterLabel": "",
+                "HasRealRootJoint": false,
+                "EndJoints": [
+                    {
+                        "ParentJointID": 8,
+                        "Name": "head",
+                        "Position": [
+                            0.0,
+                            1.600000023841858,
+                            0.0
+                        ]
+                    }
+                ],
+                "PDControlParam": {
+                    "Kps": [
+                        400.0,
+                        400.0,
+                        400.0,
+                        400.0,
+                        400.0,
+                        400.0,
+                        400.0,
+                        400.0,
+                        400.0,
+                        400.0,
+                        400.0,
+                        400.0,
+                        400.0,
+                        400.0,
+                        400.0
+                    ],
+                    "TorqueLimit": [
+                        400.0,
+                        400.0,
+                        400.0,
+                        400.0,
+                        400.0,
+                        400.0,
+                        400.0,
+                        400.0,
+                        400.0,
+                        400.0,
+                        400.0,
+                        400.0,
+                        400.0,
+                        400.0,
+                        400.0
+                    ]
+                },
+                "RootInfo": {
+                    "Position": [
+                        0.0,
+                        0.9300000071525574,
+                        0.0
+                    ],
+                    "Quaternion": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "Bodies": [
+                    {
+                        "BodyID": 0,
+                        "Name": "pelvis",
+                        "MassMode": "MassValue",
+                        "Density": 900.0,
+                        "Mass": 4.0320000648498535,
+                        "InertiaMode": "InertiaValue",
+                        "Inertia": [
+                            0.011961599811911583,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.03494400158524513,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.029702400788664818
+                        ],
+                        "ParentJointID": -1,
+                        "ParentBodyID": -1,
+                        "Position": [
+                            0.0,
+                            0.9313952326774597,
+                            0.0
+                        ],
+                        "Quaternion": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "LinearVelocity": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "AngularVelocity": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Geoms": [
+                            {
+                                "GeomID": 0,
+                                "Name": "CollisionGeometry_pelvis0",
+                                "GeomType": "Sphere",
+                                "Collidable": true,
+                                "Friction": 0.800000011920929,
+                                "Restitution": 1.0,
+                                "ClungEnv": false,
+                                "Position": [
+                                    0.08500000089406967,
+                                    0.8999999761581421,
+                                    0.0
+                                ],
+                                "Quaternion": [
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    1.0
+                                ],
+                                "Scale": [
+                                    0.05999999865889549,
+                                    0.05999999865889549,
+                                    0.05999999865889549
+                                ]
+                            },
+                            {
+                                "GeomID": 1,
+                                "Name": "CollisionGeometry_pelvis1",
+                                "GeomType": "Sphere",
+                                "Collidable": true,
+                                "Friction": 0.800000011920929,
+                                "Restitution": 1.0,
+                                "ClungEnv": false,
+                                "Position": [
+                                    0.0,
+                                    0.949999988079071,
+                                    0.0
+                                ],
+                                "Quaternion": [
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    1.0
+                                ],
+                                "Scale": [
+                                    0.09000000357627869,
+                                    0.09000000357627869,
+                                    0.09000000357627869
+                                ]
+                            },
+                            {
+                                "GeomID": 2,
+                                "Name": "CollisionGeometry_pelvis2",
+                                "GeomType": "Sphere",
+                                "Collidable": true,
+                                "Friction": 0.800000011920929,
+                                "Restitution": 1.0,
+                                "ClungEnv": false,
+                                "Position": [
+                                    -0.08500000089406967,
+                                    0.8999999761581421,
+                                    0.0
+                                ],
+                                "Quaternion": [
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    1.0
+                                ],
+                                "Scale": [
+                                    0.05999999865889549,
+                                    0.05999999865889549,
+                                    0.05999999865889549
+                                ]
+                            }
+                        ],
+                        "IgnoreBodyID": []
+                    },
+                    {
+                        "BodyID": 1,
+                        "Name": "lowerBack",
+                        "MassMode": "MassValue",
+                        "Density": 900.0,
+                        "Mass": 5.507999897003174,
+                        "InertiaMode": "InertiaValue",
+                        "Inertia": [
+                            0.019874699413776398,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.05457510054111481,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.04791960120201111
+                        ],
+                        "ParentJointID": 0,
+                        "ParentBodyID": 0,
+                        "Position": [
+                            0.0,
+                            1.0800000429153442,
+                            0.0
+                        ],
+                        "Quaternion": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "LinearVelocity": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "AngularVelocity": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Geoms": [
+                            {
+                                "GeomID": 0,
+                                "Name": "CollisionGeometry_lowerBack",
+                                "GeomType": "Sphere",
+                                "Collidable": true,
+                                "Friction": 0.800000011920929,
+                                "Restitution": 1.0,
+                                "ClungEnv": false,
+                                "Position": [
+                                    0.0,
+                                    1.0800000429153442,
+                                    0.0
+                                ],
+                                "Quaternion": [
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    1.0
+                                ],
+                                "Scale": [
+                                    0.07000000029802322,
+                                    0.07000000029802322,
+                                    0.07000000029802322
+                                ]
+                            }
+                        ],
+                        "IgnoreBodyID": []
+                    },
+                    {
+                        "BodyID": 2,
+                        "Name": "torso",
+                        "MassMode": "MassValue",
+                        "Density": 900.0,
+                        "Mass": 6.426000118255615,
+                        "InertiaMode": "InertiaValue",
+                        "Inertia": [
+                            0.025971749797463417,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.06367094814777374,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.05869080126285553
+                        ],
+                        "ParentJointID": 1,
+                        "ParentBodyID": 1,
+                        "Position": [
+                            0.0,
+                            1.2000000476837158,
+                            0.0
+                        ],
+                        "Quaternion": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "LinearVelocity": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "AngularVelocity": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Geoms": [
+                            {
+                                "GeomID": 0,
+                                "Name": "CollisionGeometry_torso",
+                                "GeomType": "Sphere",
+                                "Collidable": true,
+                                "Friction": 0.800000011920929,
+                                "Restitution": 1.0,
+                                "ClungEnv": false,
+                                "Position": [
+                                    0.0,
+                                    1.2000000476837158,
+                                    0.0
+                                ],
+                                "Quaternion": [
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    1.0
+                                ],
+                                "Scale": [
+                                    0.10000000149011612,
+                                    0.10000000149011612,
+                                    0.10000000149011612
+                                ]
+                            }
+                        ],
+                        "IgnoreBodyID": []
+                    },
+                    {
+                        "BodyID": 3,
+                        "Name": "rUpperLeg",
+                        "MassMode": "Density",
+                        "Density": 1000.0,
+                        "Mass": 1.0,
+                        "InertiaMode": "Density",
+                        "Inertia": [
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "ParentJointID": 2,
+                        "ParentBodyID": 0,
+                        "Position": [
+                            -0.10000000149011612,
+                            0.675000011920929,
+                            0.0
+                        ],
+                        "Quaternion": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "LinearVelocity": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "AngularVelocity": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Geoms": [
+                            {
+                                "GeomID": 0,
+                                "Name": "CollisionGeometry_rUpperLeg",
+                                "GeomType": "Capsule",
+                                "Collidable": true,
+                                "Friction": 0.800000011920929,
+                                "Restitution": 1.0,
+                                "ClungEnv": false,
+                                "Position": [
+                                    -0.10000000149011612,
+                                    0.675000011920929,
+                                    0.0
+                                ],
+                                "Quaternion": [
+                                    -0.7071068286895752,
+                                    0.0,
+                                    0.0,
+                                    0.7071068286895752
+                                ],
+                                "Scale": [
+                                    0.07000000029802322,
+                                    0.25999999046325684,
+                                    0.0
+                                ]
+                            }
+                        ],
+                        "IgnoreBodyID": []
+                    },
+                    {
+                        "BodyID": 4,
+                        "Name": "lUpperLeg",
+                        "MassMode": "Density",
+                        "Density": 1000.0,
+                        "Mass": 1.0,
+                        "InertiaMode": "Density",
+                        "Inertia": [
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "ParentJointID": 3,
+                        "ParentBodyID": 0,
+                        "Position": [
+                            0.10000000149011612,
+                            0.675000011920929,
+                            0.0
+                        ],
+                        "Quaternion": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "LinearVelocity": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "AngularVelocity": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Geoms": [
+                            {
+                                "GeomID": 0,
+                                "Name": "CollisionGeometry_lUpperLeg",
+                                "GeomType": "Capsule",
+                                "Collidable": true,
+                                "Friction": 0.800000011920929,
+                                "Restitution": 1.0,
+                                "ClungEnv": false,
+                                "Position": [
+                                    0.10000000149011612,
+                                    0.675000011920929,
+                                    0.0
+                                ],
+                                "Quaternion": [
+                                    -0.7071068286895752,
+                                    0.0,
+                                    0.0,
+                                    0.7071068286895752
+                                ],
+                                "Scale": [
+                                    0.07000000029802322,
+                                    0.25999999046325684,
+                                    0.0
+                                ]
+                            }
+                        ],
+                        "IgnoreBodyID": []
+                    },
+                    {
+                        "BodyID": 5,
+                        "Name": "rLowerLeg",
+                        "MassMode": "Density",
+                        "Density": 1000.0,
+                        "Mass": 1.0,
+                        "InertiaMode": "Density",
+                        "Inertia": [
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "ParentJointID": 4,
+                        "ParentBodyID": 3,
+                        "Position": [
+                            -0.10000000149011612,
+                            0.27500003576278687,
+                            0.0
+                        ],
+                        "Quaternion": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "LinearVelocity": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "AngularVelocity": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Geoms": [
+                            {
+                                "GeomID": 0,
+                                "Name": "CollisionGeometry_rLowerLeg",
+                                "GeomType": "Capsule",
+                                "Collidable": true,
+                                "Friction": 0.800000011920929,
+                                "Restitution": 1.0,
+                                "ClungEnv": false,
+                                "Position": [
+                                    -0.10000000149011612,
+                                    0.27500003576278687,
+                                    0.0
+                                ],
+                                "Quaternion": [
+                                    -0.7071068286895752,
+                                    0.0,
+                                    0.0,
+                                    0.7071068286895752
+                                ],
+                                "Scale": [
+                                    0.05999999865889549,
+                                    0.25999999046325684,
+                                    0.0
+                                ]
+                            }
+                        ],
+                        "IgnoreBodyID": []
+                    },
+                    {
+                        "BodyID": 6,
+                        "Name": "lLowerLeg",
+                        "MassMode": "Density",
+                        "Density": 1000.0,
+                        "Mass": 1.0,
+                        "InertiaMode": "Density",
+                        "Inertia": [
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "ParentJointID": 5,
+                        "ParentBodyID": 4,
+                        "Position": [
+                            0.10000000149011612,
+                            0.27500003576278687,
+                            0.0
+                        ],
+                        "Quaternion": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "LinearVelocity": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "AngularVelocity": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Geoms": [
+                            {
+                                "GeomID": 0,
+                                "Name": "CollisionGeometry_lLowerLeg",
+                                "GeomType": "Capsule",
+                                "Collidable": true,
+                                "Friction": 0.800000011920929,
+                                "Restitution": 1.0,
+                                "ClungEnv": false,
+                                "Position": [
+                                    0.10000000149011612,
+                                    0.27500003576278687,
+                                    0.0
+                                ],
+                                "Quaternion": [
+                                    -0.7071068286895752,
+                                    0.0,
+                                    0.0,
+                                    0.7071068286895752
+                                ],
+                                "Scale": [
+                                    0.05999999865889549,
+                                    0.25999999046325684,
+                                    0.0
+                                ]
+                            }
+                        ],
+                        "IgnoreBodyID": []
+                    },
+                    {
+                        "BodyID": 7,
+                        "Name": "rFoot",
+                        "MassMode": "Density",
+                        "Density": 1000.0,
+                        "Mass": 1.0,
+                        "InertiaMode": "Density",
+                        "Inertia": [
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "ParentJointID": 6,
+                        "ParentBodyID": 5,
+                        "Position": [
+                            -0.09999999403953552,
+                            0.042222678661346436,
+                            0.017080236226320267
+                        ],
+                        "Quaternion": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "LinearVelocity": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "AngularVelocity": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Geoms": [
+                            {
+                                "GeomID": 0,
+                                "Name": "Ball0",
+                                "GeomType": "Sphere",
+                                "Collidable": true,
+                                "Friction": 0.800000011920929,
+                                "Restitution": 1.0,
+                                "ClungEnv": true,
+                                "Position": [
+                                    -0.10000000149011612,
+                                    0.04500001668930054,
+                                    -0.031499993056058884
+                                ],
+                                "Quaternion": [
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    1.0
+                                ],
+                                "Scale": [
+                                    0.036399997770786285,
+                                    0.036399997770786285,
+                                    0.036399997770786285
+                                ]
+                            },
+                            {
+                                "GeomID": 0,
+                                "Name": "Capsule0",
+                                "GeomType": "Capsule",
+                                "Collidable": true,
+                                "Friction": 0.800000011920929,
+                                "Restitution": 1.0,
+                                "ClungEnv": true,
+                                "Position": [
+                                    -0.10000000149011612,
+                                    0.029999971389770508,
+                                    0.16500000655651093
+                                ],
+                                "Quaternion": [
+                                    0.0,
+                                    -0.7071068286895752,
+                                    0.0,
+                                    0.7071068286895752
+                                ],
+                                "Scale": [
+                                    0.019999999552965164,
+                                    0.05999999865889549,
+                                    0.0
+                                ]
+                            },
+                            {
+                                "GeomID": 1,
+                                "Name": "Ball1",
+                                "GeomType": "Sphere",
+                                "Collidable": true,
+                                "Friction": 0.800000011920929,
+                                "Restitution": 1.0,
+                                "ClungEnv": true,
+                                "Position": [
+                                    -0.07200000435113907,
+                                    0.03100001811981201,
+                                    0.11100000143051147
+                                ],
+                                "Quaternion": [
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    1.0
+                                ],
+                                "Scale": [
+                                    0.021000001579523087,
+                                    0.021000001579523087,
+                                    0.021000001579523087
+                                ]
+                            },
+                            {
+                                "GeomID": 2,
+                                "Name": "Ball2",
+                                "GeomType": "Sphere",
+                                "Collidable": true,
+                                "Friction": 0.800000011920929,
+                                "Restitution": 1.0,
+                                "ClungEnv": true,
+                                "Position": [
+                                    -0.12800000607967377,
+                                    0.03100001811981201,
+                                    0.11100000143051147
+                                ],
+                                "Quaternion": [
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    1.0
+                                ],
+                                "Scale": [
+                                    0.021000001579523087,
+                                    0.021000001579523087,
+                                    0.021000001579523087
+                                ]
+                            },
+                            {
+                                "GeomID": 3,
+                                "Name": "Capsule0",
+                                "GeomType": "Capsule",
+                                "Collidable": true,
+                                "Friction": 0.800000011920929,
+                                "Restitution": 1.0,
+                                "ClungEnv": true,
+                                "Position": [
+                                    -0.10000000894069672,
+                                    0.04500001668930054,
+                                    0.039750002324581146
+                                ],
+                                "Quaternion": [
+                                    0.9988014101982117,
+                                    -5.315465045896417e-07,
+                                    0.0,
+                                    -0.048946112394332886
+                                ],
+                                "Scale": [
+                                    0.01637999899685383,
+                                    0.11042606830596924,
+                                    0.0
+                                ]
+                            }
+                        ],
+                        "IgnoreBodyID": []
+                    },
+                    {
+                        "BodyID": 8,
+                        "Name": "lFoot",
+                        "MassMode": "Density",
+                        "Density": 1000.0,
+                        "Mass": 1.0,
+                        "InertiaMode": "Density",
+                        "Inertia": [
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "ParentJointID": 7,
+                        "ParentBodyID": 6,
+                        "Position": [
+                            0.09999999403953552,
+                            0.042222678661346436,
+                            0.017080236226320267
+                        ],
+                        "Quaternion": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "LinearVelocity": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "AngularVelocity": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Geoms": [
+                            {
+                                "GeomID": 0,
+                                "Name": "Ball0",
+                                "GeomType": "Sphere",
+                                "Collidable": true,
+                                "Friction": 0.800000011920929,
+                                "Restitution": 1.0,
+                                "ClungEnv": true,
+                                "Position": [
+                                    0.10000000149011612,
+                                    0.04500001668930054,
+                                    -0.031499993056058884
+                                ],
+                                "Quaternion": [
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    1.0
+                                ],
+                                "Scale": [
+                                    0.036399997770786285,
+                                    0.036399997770786285,
+                                    0.036399997770786285
+                                ]
+                            },
+                            {
+                                "GeomID": 0,
+                                "Name": "Capsule0",
+                                "GeomType": "Capsule",
+                                "Collidable": true,
+                                "Friction": 0.800000011920929,
+                                "Restitution": 1.0,
+                                "ClungEnv": true,
+                                "Position": [
+                                    0.10000000149011612,
+                                    0.029999971389770508,
+                                    0.16500000655651093
+                                ],
+                                "Quaternion": [
+                                    0.0,
+                                    -0.7071068286895752,
+                                    0.0,
+                                    0.7071068286895752
+                                ],
+                                "Scale": [
+                                    0.019999999552965164,
+                                    0.05999999865889549,
+                                    0.0
+                                ]
+                            },
+                            {
+                                "GeomID": 1,
+                                "Name": "Ball1",
+                                "GeomType": "Sphere",
+                                "Collidable": true,
+                                "Friction": 0.800000011920929,
+                                "Restitution": 1.0,
+                                "ClungEnv": true,
+                                "Position": [
+                                    0.12800000607967377,
+                                    0.03100001811981201,
+                                    0.11100000143051147
+                                ],
+                                "Quaternion": [
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    1.0
+                                ],
+                                "Scale": [
+                                    0.021000001579523087,
+                                    0.021000001579523087,
+                                    0.021000001579523087
+                                ]
+                            },
+                            {
+                                "GeomID": 2,
+                                "Name": "Ball2",
+                                "GeomType": "Sphere",
+                                "Collidable": true,
+                                "Friction": 0.800000011920929,
+                                "Restitution": 1.0,
+                                "ClungEnv": true,
+                                "Position": [
+                                    0.07200000435113907,
+                                    0.03100001811981201,
+                                    0.11100000143051147
+                                ],
+                                "Quaternion": [
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    1.0
+                                ],
+                                "Scale": [
+                                    0.021000001579523087,
+                                    0.021000001579523087,
+                                    0.021000001579523087
+                                ]
+                            },
+                            {
+                                "GeomID": 3,
+                                "Name": "Capsule0",
+                                "GeomType": "Capsule",
+                                "Collidable": true,
+                                "Friction": 0.800000011920929,
+                                "Restitution": 1.0,
+                                "ClungEnv": true,
+                                "Position": [
+                                    0.10000000894069672,
+                                    0.04500001668930054,
+                                    0.039750002324581146
+                                ],
+                                "Quaternion": [
+                                    0.9988014101982117,
+                                    5.315465045896417e-07,
+                                    0.0,
+                                    -0.048946112394332886
+                                ],
+                                "Scale": [
+                                    0.01637999899685383,
+                                    0.11042606830596924,
+                                    0.0
+                                ]
+                            }
+                        ],
+                        "IgnoreBodyID": []
+                    },
+                    {
+                        "BodyID": 9,
+                        "Name": "head",
+                        "MassMode": "Density",
+                        "Density": 1800.0,
+                        "Mass": 1.0,
+                        "InertiaMode": "Density",
+                        "Inertia": [
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "ParentJointID": 8,
+                        "ParentBodyID": 2,
+                        "Position": [
+                            0.0,
+                            1.4800000190734863,
+                            0.0
+                        ],
+                        "Quaternion": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "LinearVelocity": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "AngularVelocity": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Geoms": [
+                            {
+                                "GeomID": 0,
+                                "Name": "CollisionGeometry_head",
+                                "GeomType": "Capsule",
+                                "Collidable": true,
+                                "Friction": 0.800000011920929,
+                                "Restitution": 1.0,
+                                "ClungEnv": false,
+                                "Position": [
+                                    0.0,
+                                    1.4800000190734863,
+                                    0.0
+                                ],
+                                "Quaternion": [
+                                    -0.7071068286895752,
+                                    0.0,
+                                    0.0,
+                                    0.7071068286895752
+                                ],
+                                "Scale": [
+                                    0.09000000357627869,
+                                    0.07999999821186066,
+                                    0.0
+                                ]
+                            }
+                        ],
+                        "IgnoreBodyID": [
+                            13,
+                            12
+                        ]
+                    },
+                    {
+                        "BodyID": 10,
+                        "Name": "rClavicle",
+                        "MassMode": "Density",
+                        "Density": 1000.0,
+                        "Mass": 1.0,
+                        "InertiaMode": "Density",
+                        "Inertia": [
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "ParentJointID": 9,
+                        "ParentBodyID": 2,
+                        "Position": [
+                            -0.07000000029802322,
+                            1.2825000286102295,
+                            0.0
+                        ],
+                        "Quaternion": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "LinearVelocity": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "AngularVelocity": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Geoms": [
+                            {
+                                "GeomID": 0,
+                                "Name": "CollisionGeometry_rClavicle",
+                                "GeomType": "Capsule",
+                                "Collidable": true,
+                                "Friction": 0.800000011920929,
+                                "Restitution": 1.0,
+                                "ClungEnv": false,
+                                "Position": [
+                                    -0.07000000029802322,
+                                    1.2825000286102295,
+                                    0.0
+                                ],
+                                "Quaternion": [
+                                    0.0,
+                                    -0.7071068286895752,
+                                    0.0,
+                                    0.7071068286895752
+                                ],
+                                "Scale": [
+                                    0.06499999761581421,
+                                    0.029999999329447746,
+                                    0.0
+                                ]
+                            }
+                        ],
+                        "IgnoreBodyID": [
+                            13,
+                            11
+                        ]
+                    },
+                    {
+                        "BodyID": 11,
+                        "Name": "lClavicle",
+                        "MassMode": "Density",
+                        "Density": 1000.0,
+                        "Mass": 1.0,
+                        "InertiaMode": "Density",
+                        "Inertia": [
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "ParentJointID": 10,
+                        "ParentBodyID": 2,
+                        "Position": [
+                            0.07000000029802322,
+                            1.2825000286102295,
+                            0.0
+                        ],
+                        "Quaternion": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "LinearVelocity": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "AngularVelocity": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Geoms": [
+                            {
+                                "GeomID": 0,
+                                "Name": "CollisionGeometry_lClavicle",
+                                "GeomType": "Capsule",
+                                "Collidable": true,
+                                "Friction": 0.800000011920929,
+                                "Restitution": 1.0,
+                                "ClungEnv": false,
+                                "Position": [
+                                    0.07000000029802322,
+                                    1.2825000286102295,
+                                    0.0
+                                ],
+                                "Quaternion": [
+                                    0.0,
+                                    -0.7071068286895752,
+                                    0.0,
+                                    0.7071068286895752
+                                ],
+                                "Scale": [
+                                    0.06499999761581421,
+                                    0.029999999329447746,
+                                    0.0
+                                ]
+                            }
+                        ],
+                        "IgnoreBodyID": [
+                            12,
+                            11
+                        ]
+                    },
+                    {
+                        "BodyID": 12,
+                        "Name": "rUpperArm",
+                        "MassMode": "Density",
+                        "Density": 1000.0,
+                        "Mass": 1.0,
+                        "InertiaMode": "Density",
+                        "Inertia": [
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "ParentJointID": 11,
+                        "ParentBodyID": 10,
+                        "Position": [
+                            -0.2411470115184784,
+                            1.2825000286102295,
+                            0.0
+                        ],
+                        "Quaternion": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "LinearVelocity": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "AngularVelocity": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Geoms": [
+                            {
+                                "GeomID": 0,
+                                "Name": "CollisionGeometry_rUpperArm",
+                                "GeomType": "Capsule",
+                                "Collidable": true,
+                                "Friction": 0.800000011920929,
+                                "Restitution": 1.0,
+                                "ClungEnv": false,
+                                "Position": [
+                                    -0.2411469966173172,
+                                    1.2825000286102295,
+                                    0.0
+                                ],
+                                "Quaternion": [
+                                    0.0,
+                                    -0.7071068286895752,
+                                    0.0,
+                                    0.7071068286895752
+                                ],
+                                "Scale": [
+                                    0.04749999940395355,
+                                    0.15000000596046448,
+                                    0.0
+                                ]
+                            }
+                        ],
+                        "IgnoreBodyID": []
+                    },
+                    {
+                        "BodyID": 13,
+                        "Name": "lUpperArm",
+                        "MassMode": "Density",
+                        "Density": 1000.0,
+                        "Mass": 1.0,
+                        "InertiaMode": "Density",
+                        "Inertia": [
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "ParentJointID": 12,
+                        "ParentBodyID": 11,
+                        "Position": [
+                            0.2411470115184784,
+                            1.2825000286102295,
+                            0.0
+                        ],
+                        "Quaternion": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "LinearVelocity": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "AngularVelocity": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Geoms": [
+                            {
+                                "GeomID": 0,
+                                "Name": "CollisionGeometry_lUpperArm",
+                                "GeomType": "Capsule",
+                                "Collidable": true,
+                                "Friction": 0.800000011920929,
+                                "Restitution": 1.0,
+                                "ClungEnv": false,
+                                "Position": [
+                                    0.2411469966173172,
+                                    1.2825000286102295,
+                                    0.0
+                                ],
+                                "Quaternion": [
+                                    0.0,
+                                    -0.7071068286895752,
+                                    0.0,
+                                    0.7071068286895752
+                                ],
+                                "Scale": [
+                                    0.04749999940395355,
+                                    0.15000000596046448,
+                                    0.0
+                                ]
+                            }
+                        ],
+                        "IgnoreBodyID": []
+                    },
+                    {
+                        "BodyID": 14,
+                        "Name": "rLowerArm",
+                        "MassMode": "Density",
+                        "Density": 2000.0,
+                        "Mass": 1.0,
+                        "InertiaMode": "Density",
+                        "Inertia": [
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "ParentJointID": 13,
+                        "ParentBodyID": 12,
+                        "Position": [
+                            -0.47864699363708496,
+                            1.2825000286102295,
+                            0.0
+                        ],
+                        "Quaternion": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "LinearVelocity": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "AngularVelocity": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Geoms": [
+                            {
+                                "GeomID": 0,
+                                "Name": "CollisionGeometry_rLowerArm",
+                                "GeomType": "Capsule",
+                                "Collidable": true,
+                                "Friction": 0.800000011920929,
+                                "Restitution": 1.0,
+                                "ClungEnv": false,
+                                "Position": [
+                                    -0.47864699363708496,
+                                    1.2825000286102295,
+                                    0.0
+                                ],
+                                "Quaternion": [
+                                    0.0,
+                                    -0.7071068286895752,
+                                    0.0,
+                                    0.7071068286895752
+                                ],
+                                "Scale": [
+                                    0.04500000178813934,
+                                    0.14000000059604645,
+                                    0.0
+                                ]
+                            },
+                            {
+                                "GeomID": 0,
+                                "Name": "CollisionGeometry_rHand",
+                                "GeomType": "Cube",
+                                "Collidable": true,
+                                "Friction": 0.800000011920929,
+                                "Restitution": 1.0,
+                                "ClungEnv": false,
+                                "Position": [
+                                    -0.6600000262260437,
+                                    1.2825000286102295,
+                                    0.0
+                                ],
+                                "Quaternion": [
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    1.0
+                                ],
+                                "Scale": [
+                                    0.1599999964237213,
+                                    0.029999999329447746,
+                                    0.07999999821186066
+                                ]
+                            }
+                        ],
+                        "IgnoreBodyID": []
+                    },
+                    {
+                        "BodyID": 15,
+                        "Name": "lLowerArm",
+                        "MassMode": "Density",
+                        "Density": 2000.0,
+                        "Mass": 1.0,
+                        "InertiaMode": "Density",
+                        "Inertia": [
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "ParentJointID": 14,
+                        "ParentBodyID": 13,
+                        "Position": [
+                            0.47864699363708496,
+                            1.2825000286102295,
+                            0.0
+                        ],
+                        "Quaternion": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "LinearVelocity": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "AngularVelocity": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Geoms": [
+                            {
+                                "GeomID": 0,
+                                "Name": "CollisionGeometry_lLowerArm",
+                                "GeomType": "Capsule",
+                                "Collidable": true,
+                                "Friction": 0.800000011920929,
+                                "Restitution": 1.0,
+                                "ClungEnv": false,
+                                "Position": [
+                                    0.47864699363708496,
+                                    1.2825000286102295,
+                                    0.0
+                                ],
+                                "Quaternion": [
+                                    0.0,
+                                    -0.7071068286895752,
+                                    0.0,
+                                    0.7071068286895752
+                                ],
+                                "Scale": [
+                                    0.04500000178813934,
+                                    0.14000000059604645,
+                                    0.0
+                                ]
+                            },
+                            {
+                                "GeomID": 0,
+                                "Name": "CollisionGeometry_lHand",
+                                "GeomType": "Cube",
+                                "Collidable": true,
+                                "Friction": 0.800000011920929,
+                                "Restitution": 1.0,
+                                "ClungEnv": false,
+                                "Position": [
+                                    0.6600000262260437,
+                                    1.2825000286102295,
+                                    0.0
+                                ],
+                                "Quaternion": [
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    1.0
+                                ],
+                                "Scale": [
+                                    0.1599999964237213,
+                                    0.029999999329447746,
+                                    0.07999999821186066
+                                ]
+                            }
+                        ],
+                        "IgnoreBodyID": []
+                    }
+                ],
+                "Joints": [
+                    {
+                        "JointID": 0,
+                        "Name": "pelvis_lowerback",
+                        "JointType": "BallJoint",
+                        "Damping": 10.0,
+                        "Weight": 1.0,
+                        "Position": [
+                            0.0,
+                            1.024999976158142,
+                            0.0
+                        ],
+                        "Quaternion": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "AngleLoLimit": [
+                            -120.0,
+                            -80.0,
+                            -80.0
+                        ],
+                        "AngleHiLimit": [
+                            120.0,
+                            80.0,
+                            80.0
+                        ],
+                        "EulerOrder": "XYZ",
+                        "EulerAxisLocalRot": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "ParentBodyID": 0,
+                        "ChildBodyID": 1,
+                        "ParentJointID": -1,
+                        "kp": 400.0,
+                        "torque_limit": 400.0
+                    },
+                    {
+                        "JointID": 1,
+                        "Name": "lowerback_torso",
+                        "JointType": "BallJoint",
+                        "Damping": 10.0,
+                        "Weight": 1.0,
+                        "Position": [
+                            0.0,
+                            1.125,
+                            0.0
+                        ],
+                        "Quaternion": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "AngleLoLimit": [
+                            -80.0,
+                            -80.0,
+                            -80.0
+                        ],
+                        "AngleHiLimit": [
+                            80.0,
+                            80.0,
+                            80.0
+                        ],
+                        "EulerOrder": "XYZ",
+                        "EulerAxisLocalRot": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "ParentBodyID": 1,
+                        "ChildBodyID": 2,
+                        "ParentJointID": "pelvis_lowerback",
+                        "kp": 400.0,
+                        "torque_limit": 400.0
+                    },
+                    {
+                        "JointID": 2,
+                        "Name": "rHip",
+                        "JointType": "BallJoint",
+                        "Damping": 10.0,
+                        "Weight": 1.0,
+                        "Position": [
+                            -0.10000000149011612,
+                            0.8799999952316284,
+                            0.0
+                        ],
+                        "Quaternion": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "AngleLoLimit": [
+                            -150.0,
+                            -80.0,
+                            -170.0
+                        ],
+                        "AngleHiLimit": [
+                            140.0,
+                            80.0,
+                            80.0
+                        ],
+                        "EulerOrder": "XYZ",
+                        "EulerAxisLocalRot": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "ParentBodyID": 0,
+                        "ChildBodyID": 3,
+                        "ParentJointID": -1,
+                        "kp": 400.0,
+                        "torque_limit": 400.0
+                    },
+                    {
+                        "JointID": 3,
+                        "Name": "lHip",
+                        "JointType": "BallJoint",
+                        "Damping": 10.0,
+                        "Weight": 1.0,
+                        "Position": [
+                            0.10000000149011612,
+                            0.8799999952316284,
+                            0.0
+                        ],
+                        "Quaternion": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "AngleLoLimit": [
+                            -150.0,
+                            -80.0,
+                            -80.0
+                        ],
+                        "AngleHiLimit": [
+                            140.0,
+                            80.0,
+                            170.0
+                        ],
+                        "EulerOrder": "XYZ",
+                        "EulerAxisLocalRot": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "ParentBodyID": 0,
+                        "ChildBodyID": 4,
+                        "ParentJointID": -1,
+                        "kp": 400.0,
+                        "torque_limit": 400.0
+                    },
+                    {
+                        "JointID": 4,
+                        "Name": "rKnee",
+                        "JointType": "HingeJoint",
+                        "Damping": 10.0,
+                        "Weight": 1.0,
+                        "Position": [
+                            -0.10000000149011612,
+                            0.4699999988079071,
+                            0.0
+                        ],
+                        "Quaternion": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "AngleLoLimit": [
+                            0.0
+                        ],
+                        "AngleHiLimit": [
+                            170.0
+                        ],
+                        "EulerOrder": "X",
+                        "EulerAxisLocalRot": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "ParentBodyID": 3,
+                        "ChildBodyID": 5,
+                        "ParentJointID": "rHip",
+                        "kp": 400.0,
+                        "torque_limit": 400.0
+                    },
+                    {
+                        "JointID": 5,
+                        "Name": "lKnee",
+                        "JointType": "HingeJoint",
+                        "Damping": 10.0,
+                        "Weight": 1.0,
+                        "Position": [
+                            0.10000000149011612,
+                            0.4699999988079071,
+                            0.0
+                        ],
+                        "Quaternion": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "AngleLoLimit": [
+                            0.0
+                        ],
+                        "AngleHiLimit": [
+                            170.0
+                        ],
+                        "EulerOrder": "X",
+                        "EulerAxisLocalRot": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "ParentBodyID": 4,
+                        "ChildBodyID": 6,
+                        "ParentJointID": "lHip",
+                        "kp": 400.0,
+                        "torque_limit": 400.0
+                    },
+                    {
+                        "JointID": 6,
+                        "Name": "rAnkle",
+                        "JointType": "BallJoint",
+                        "Damping": 10.0,
+                        "Weight": 0.20000000298023224,
+                        "Position": [
+                            -0.10000000149011612,
+                            0.07999998331069946,
+                            0.0
+                        ],
+                        "Quaternion": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "AngleLoLimit": [
+                            -70.0,
+                            -45.0,
+                            -30.0
+                        ],
+                        "AngleHiLimit": [
+                            90.0,
+                            45.0,
+                            30.0
+                        ],
+                        "EulerOrder": "XYZ",
+                        "EulerAxisLocalRot": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "ParentBodyID": 5,
+                        "ChildBodyID": 7,
+                        "ParentJointID": "rKnee",
+                        "kp": 400.0,
+                        "torque_limit": 400.0
+                    },
+                    {
+                        "JointID": 7,
+                        "Name": "lAnkle",
+                        "JointType": "BallJoint",
+                        "Damping": 10.0,
+                        "Weight": 0.20000000298023224,
+                        "Position": [
+                            0.10000000149011612,
+                            0.07999998331069946,
+                            0.0
+                        ],
+                        "Quaternion": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "AngleLoLimit": [
+                            -70.0,
+                            -45.0,
+                            -30.0
+                        ],
+                        "AngleHiLimit": [
+                            90.0,
+                            45.0,
+                            30.0
+                        ],
+                        "EulerOrder": "XYZ",
+                        "EulerAxisLocalRot": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "ParentBodyID": 6,
+                        "ChildBodyID": 8,
+                        "ParentJointID": "lKnee",
+                        "kp": 400.0,
+                        "torque_limit": 400.0
+                    },
+                    {
+                        "JointID": 8,
+                        "Name": "torso_head",
+                        "JointType": "BallJoint",
+                        "Damping": 10.0,
+                        "Weight": 1.0,
+                        "Position": [
+                            0.0,
+                            1.407349944114685,
+                            0.0
+                        ],
+                        "Quaternion": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "AngleLoLimit": [
+                            -80.0,
+                            -80.0,
+                            -80.0
+                        ],
+                        "AngleHiLimit": [
+                            80.0,
+                            80.0,
+                            80.0
+                        ],
+                        "EulerOrder": "XYZ",
+                        "EulerAxisLocalRot": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "ParentBodyID": 2,
+                        "ChildBodyID": 9,
+                        "ParentJointID": "lowerback_torso",
+                        "kp": 400.0,
+                        "torque_limit": 400.0
+                    },
+                    {
+                        "JointID": 9,
+                        "Name": "rTorso_Clavicle",
+                        "JointType": "BallJoint",
+                        "Damping": 10.0,
+                        "Weight": 1.0,
+                        "Position": [
+                            -0.0010000000474974513,
+                            1.2825000286102295,
+                            0.0
+                        ],
+                        "Quaternion": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "AngleLoLimit": [
+                            -45.0,
+                            -45.0,
+                            -45.0
+                        ],
+                        "AngleHiLimit": [
+                            45.0,
+                            45.0,
+                            45.0
+                        ],
+                        "EulerOrder": "ZXY",
+                        "EulerAxisLocalRot": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "ParentBodyID": 2,
+                        "ChildBodyID": 10,
+                        "ParentJointID": "lowerback_torso",
+                        "kp": 400.0,
+                        "torque_limit": 400.0
+                    },
+                    {
+                        "JointID": 10,
+                        "Name": "lTorso_Clavicle",
+                        "JointType": "BallJoint",
+                        "Damping": 10.0,
+                        "Weight": 1.0,
+                        "Position": [
+                            0.0010000000474974513,
+                            1.2825000286102295,
+                            0.0
+                        ],
+                        "Quaternion": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "AngleLoLimit": [
+                            -45.0,
+                            -45.0,
+                            -45.0
+                        ],
+                        "AngleHiLimit": [
+                            45.0,
+                            45.0,
+                            45.0
+                        ],
+                        "EulerOrder": "ZXY",
+                        "EulerAxisLocalRot": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "ParentBodyID": 2,
+                        "ChildBodyID": 11,
+                        "ParentJointID": "lowerback_torso",
+                        "kp": 400.0,
+                        "torque_limit": 400.0
+                    },
+                    {
+                        "JointID": 11,
+                        "Name": "rShoulder",
+                        "JointType": "BallJoint",
+                        "Damping": 10.0,
+                        "Weight": 1.0,
+                        "Position": [
+                            -0.118647001683712,
+                            1.2825000286102295,
+                            0.0
+                        ],
+                        "Quaternion": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "AngleLoLimit": [
+                            -170.0,
+                            -80.0,
+                            -170.0
+                        ],
+                        "AngleHiLimit": [
+                            170.0,
+                            80.0,
+                            170.0
+                        ],
+                        "EulerOrder": "ZXY",
+                        "EulerAxisLocalRot": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "ParentBodyID": 10,
+                        "ChildBodyID": 12,
+                        "ParentJointID": "rTorso_Clavicle",
+                        "kp": 400.0,
+                        "torque_limit": 400.0
+                    },
+                    {
+                        "JointID": 12,
+                        "Name": "lShoulder",
+                        "JointType": "BallJoint",
+                        "Damping": 10.0,
+                        "Weight": 1.0,
+                        "Position": [
+                            0.118647001683712,
+                            1.2825000286102295,
+                            0.0
+                        ],
+                        "Quaternion": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "AngleLoLimit": [
+                            -170.0,
+                            -80.0,
+                            -170.0
+                        ],
+                        "AngleHiLimit": [
+                            170.0,
+                            80.0,
+                            170.0
+                        ],
+                        "EulerOrder": "ZXY",
+                        "EulerAxisLocalRot": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "ParentBodyID": 11,
+                        "ChildBodyID": 13,
+                        "ParentJointID": "lTorso_Clavicle",
+                        "kp": 400.0,
+                        "torque_limit": 400.0
+                    },
+                    {
+                        "JointID": 13,
+                        "Name": "rElbow",
+                        "JointType": "HingeJoint",
+                        "Damping": 10.0,
+                        "Weight": 1.0,
+                        "Position": [
+                            -0.3636470139026642,
+                            1.2825000286102295,
+                            0.0
+                        ],
+                        "Quaternion": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "AngleLoLimit": [
+                            0.0
+                        ],
+                        "AngleHiLimit": [
+                            150.0
+                        ],
+                        "EulerOrder": "Y",
+                        "EulerAxisLocalRot": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "ParentBodyID": 12,
+                        "ChildBodyID": 14,
+                        "ParentJointID": "rShoulder",
+                        "kp": 400.0,
+                        "torque_limit": 400.0
+                    },
+                    {
+                        "JointID": 14,
+                        "Name": "lElbow",
+                        "JointType": "HingeJoint",
+                        "Damping": 10.0,
+                        "Weight": 1.0,
+                        "Position": [
+                            0.3636470139026642,
+                            1.2825000286102295,
+                            0.0
+                        ],
+                        "Quaternion": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "AngleLoLimit": [
+                            -150.0
+                        ],
+                        "AngleHiLimit": [
+                            10.0
+                        ],
+                        "EulerOrder": "Y",
+                        "EulerAxisLocalRot": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "ParentBodyID": 13,
+                        "ChildBodyID": 15,
+                        "ParentJointID": "lShoulder",
+                        "kp": 400.0,
+                        "torque_limit": 400.0
+                    }
+                ]
+            }
+        ]
+    }
+}
