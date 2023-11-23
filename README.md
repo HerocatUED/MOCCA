@@ -1,5 +1,5 @@
 # MOCCA
-Labs of MOCCA (pku 2023 spring)
+Labs of MOCCA (PKU 2023 Spring)
 
 MOCCA: Games 105 Course modified for pku.
 
